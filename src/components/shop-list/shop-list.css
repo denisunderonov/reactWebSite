@@ -1,0 +1,27 @@
+.shop-list-section {
+  background: rgb(249, 249, 249);
+  margin-bottom: 25px;
+}
+
+.shop-list-container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.shop-list {
+  display: flex;
+  gap: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.shop-list__item {
+  /* Body 2 - 14 medium */
+  color: rgb(0, 0, 0);
+  font-family: Grtsk Peta;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: -2%;
+  text-align: left;
+}

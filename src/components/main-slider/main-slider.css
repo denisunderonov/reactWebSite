@@ -1,0 +1,44 @@
+
+.main-slider-section {
+  width: 100%;
+  overflow: hidden;
+  height: 482px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.main-slider {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  transition: right 1s ease;
+  position: absolute;
+  height: 100%;
+}
+
+.main-slider__right-button {
+  position: absolute;
+  height: 98px;
+  z-index: 9;
+  margin-top: auto;
+  margin-bottom: auto;
+  bottom: 50%;
+  top: 50%;
+  right: 0;
+  width: 32px;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.main-slider__left-button {
+  position: absolute;
+  z-index: 9;
+  bottom: 50%;
+  top: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 98px;
+  width: 32px;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.9);
+}

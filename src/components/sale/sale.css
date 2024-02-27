@@ -1,0 +1,33 @@
+.sale__item {
+  width: 667px;
+  height: auto;
+  height: 340px;
+  position: relative;
+}
+
+.section-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale__item--saleblock {
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 71px;
+  color: #fff;
+  color: rgb(255, 255, 255);
+  font-family: Grtsk Peta;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

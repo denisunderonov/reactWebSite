@@ -1,0 +1,12 @@
+.brand-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.brand-section {
+    margin-bottom: 50px;
+}
+

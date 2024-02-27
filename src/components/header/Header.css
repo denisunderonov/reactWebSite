@@ -1,0 +1,104 @@
+header {
+  color: #fff;
+}
+
+.header__upper-block {
+    background-color: #000;
+}
+
+.header-upper-container {
+  max-width: 1360px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__geolocation {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-right: 35px;
+}
+
+.header__geolocation--choose-mark img {
+  display: flex;
+  align-self: center;
+}
+
+.header__navigation {
+  display: flex;
+  gap: 25px;
+}
+
+.header__navigation a {
+  color: #fff;
+}
+
+.header__blocks-container {
+  display: flex;
+}
+
+.header__shop--item {
+  display: flex;
+  gap: 15px;
+}
+
+.header__shop {
+  display: flex;
+  gap: 30px;
+}
+
+.header__shop--item img {
+  width: 20px;
+}
+
+.header-down-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__gender-navigation {
+  display: flex;
+  gap: 25px;
+}
+
+.header__gender-navigation--item {
+  color: rgb(0, 0, 0);
+  font-family: Grtsk Peta;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -2%;
+  text-align: left;
+}
+
+.header__account--item p {
+  color: rgb(0, 0, 0);
+  font-family: Grtsk Peta;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header__account {
+    display: flex;
+    gap: 25px;
+}
+
+.header__account--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
